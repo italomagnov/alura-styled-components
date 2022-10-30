@@ -3,6 +3,7 @@ import Titulo from "../Titulo";
 import Conta from "../Conta";
 import styled from 'styled-components'
 import { fundoClaro } from '../UI/Variaveis'; 
+import Extrato from "../Extrato";
 
 const Container = styled.div`
   background-color: ${fundoClaro};
@@ -12,9 +13,7 @@ const Container = styled.div`
 const Conteudo = styled.section`
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 32px;
 
   @media (max-width: 800px) {
     flex-direction: column;
@@ -27,6 +26,7 @@ export default () => {
       <Titulo>Olá Rory</Titulo>
       <Conteudo>
         <Conta />
+        <Extrato />
       </Conteudo>
     </Container>
   );

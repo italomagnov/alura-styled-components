@@ -14,9 +14,6 @@ export const Box = styled.div`
   box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.04);
   padding: 20px;
   width: 48%;
-  :nth-child(1n+3) {
-    margin-top: 32px;
-  };
 
   @media (max-width: 800px) {
     width: 95%;
