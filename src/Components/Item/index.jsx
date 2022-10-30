@@ -4,6 +4,7 @@ import styled from "styled-components";
 const Item = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     .text {
         font-weight: 700;
